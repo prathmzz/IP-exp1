@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FLIPKART-Home-Page</title>
+        <link rel="icon" type="image/png" href="./assets/logo.jpeg">
+
+        <style>
+        body{
+            background-color: whitesmoke;
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        nav {
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+    
+
+        nav ul {
+            text-align: center;
+        }
+
+        nav ul li{
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a{
+            color: black;
+            text-decoration: none;
+        }
+
+        img {
+            height: 300px;
+            width: 500px;
+        }
+
+        h2 h6 p{
+            text-align: center;
+        }
+
+        .container{
+            padding: 20px;
+        }
+
+        .category .Features-product{
+            margin-bottom: 20px;
+        }
+
+        .category-list, .Feature-list {
+            /* display: block; */
+             display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        } 
+
+        .Category-item .Feature-item{
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 5px;
+        
+            /* height: 100px;
+            width: 100px;
+            text-align: center;;*/
+        }  
+
+
+        footer {
+            text-align: center;
+            background-color: aliceblue;
+            border: #ddd;
+           
+        }
+        #foot{
+            padding: 10px;
+
+        }
+        
+
+
+
+
+    </style>
+    </head>
+    <body>
+
+        <h1 style="color: blue; text-align: center; ">Flipkart</h1>
+
+        <div class="Search "
+            style="background-color: rgb(146, 174, 182); padding: 0 5px;">
+            <h2
+                style="color: beige; font-size: small; padding: 5px;">Search</h2>
+        </div>
+
+        <!-- navition bar -->
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Grocery</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Fasion</a></li>
+                    <li><a href="#">Electronices</a></li>
+                    <li><a href="#">Home & Furniture </a></li>
+                    <li><a href="#">Travel</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Product Details -->
+
+        <div class="container">
+            <!-- category product  -->
+            <div class="category">
+                <h2>Top Products</h2>
+                <div class="category-list">
+                    <div class="Category-item">
+                        <img src="./assets/Mobile.jpeg" alt="Mobiles">
+                        <h3>Mobiles</h3>
+                        <p>Latest Model and Great Deals</p>
+                    </div>
+                    <div class="Category-item">
+                        <img src="./assets/Laptop.jpeg" alt="laptop">
+                        <h3>Laptos</h3>
+                        <p>High value Laptop and Great Deals</p>
+                    </div>
+                    <div class="Category-item">
+                        <img src="./assets/CLothing.jpeg" alt="Clothing">
+                        <h3>Clothing</h3>
+                        <p>Trendy fasion Clothing</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Feature product  -->
+            <div class="Features-product">
+                <h2>Features Items</h2>
+                <div class="Feature-list">
+                    <div class="Feature-item">
+                        <img src="./assets/iphone.jpeg" alt="iPhone">
+                        <h3>iPhone 14 pro</h3>
+                        <p>Price : ₹ 167000</p>
+                        <h6>Up to 30% off</h6>
+                    </div>
+                    <div class="Feature-item">
+                        <img src="./assets/SamsungGalaxyS23Ultra.jpeg"
+                            alt="SamsungGalaxyS23Ultra">
+                        <h3>Samsung Galaxy S23 Ultra</h3>
+                        <p>Price : ₹ 177000</p>
+                        <h6>Upto 25% off</h6>
+                    </div>
+                    <div class="Feature-item">
+                        <img src="./assets/MSI .jpeg" alt="MSI Laptop">
+                        <h3>MSI morden 14</h3>
+                        <p>Price : ₹ 67000</p>
+                        <h6>Upto 15% off</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <p id="foot">&copy; 2024 Flipkart-Copy. All right reserved.</p>
+        </footer>
+
+    </body>
+</html>
